@@ -46,6 +46,6 @@
     "@webxdc/types": "latest",
     "prettier": "latest",
     "typescript": "latest",
-    "vite": "latest"
+    "vite": "^6.1.0"
   }
 }
