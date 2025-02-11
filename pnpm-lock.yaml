@@ -34,7 +34,7 @@ importers:
         specifier: latest
         version: 5.7.2
       vite:
-        specifier: ^6.1.0
+        specifier: 6.1.0
         version: 6.1.0(terser@5.36.0)
 
 packages:
