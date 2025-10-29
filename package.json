@@ -33,10 +33,9 @@
     "check": "prettier --check . && tsc --noEmit --allowJs --lib es2017,dom ./src/webxdc.js"
   },
   "dependencies": {
-    "@vitejs/plugin-basic-ssl": "^1.1.0",
-    "@vitejs/plugin-legacy": "^6.0.0",
-    "eruda": "^3.4.1",
-    "terser": "^5.36.0",
+    "@vitejs/plugin-basic-ssl": "latest",
+    "@vitejs/plugin-legacy": "latest",
+    "eruda": "latest",
     "vite-plugin-zip-pack": "^1.2.4"
   },
   "devDependencies": {

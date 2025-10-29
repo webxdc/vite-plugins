@@ -7,9 +7,9 @@
     "build": "vite build"
   },
   "devDependencies": {
-    "concurrently": "latest",
-    "vite": "latest",
+    "@webxdc/vite-plugins": "latest",
     "@webxdc/webxdc-dev": "latest",
-    "@webxdc/vite-plugins": "latest"
+    "concurrently": "latest",
+    "vite": "latest"
   }
 }
