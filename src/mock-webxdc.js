@@ -10,6 +10,7 @@ export function mockWebxdc(
     configureServer(server) {
       server.middlewares.use((req, res, next) => {
         if (req.url === "/webxdc.js") {
+          res.setHeader('Content-Type', 'application/javascript; charset=utf-8');
           res.end(scriptSrc);
         } else {
           next();
