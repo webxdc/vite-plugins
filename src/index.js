@@ -12,12 +12,7 @@ export const webxdcViteConfig = function (options = {}) {
   if (!options.plugins) {
     options.plugins = [];
   }
-  options.plugins.push(
-    buildXDC(),
-    eruda(),
-    mockWebxdc(),
-    secureContext(),
-  );
+  options.plugins.push(buildXDC(), eruda(), mockWebxdc(), secureContext());
   return options;
 };
 

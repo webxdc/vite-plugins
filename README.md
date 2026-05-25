@@ -47,11 +47,7 @@ Use the individual plugins for more control over the build.
 ```ts
 // vite.config.ts
 
-import {
-  buildXDC,
-  eruda,
-  mockWebxdc,
-} from "@webxdc/vite-plugins";
+import { buildXDC, eruda, mockWebxdc } from "@webxdc/vite-plugins";
 import { defineConfig } from "vite";
 
 export default defineConfig({
