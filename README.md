@@ -13,8 +13,6 @@ Collection of [Vite](https://vitejs.dev/) plugins and utilities for [webxdc](htt
 
 - 📦 Automatically generate your `.xdc` file.
 
-- 🦕 Support legacy/old browsers.
-
 ## Getting Started
 
 Scaffolding your first webxdc project:
@@ -53,7 +51,6 @@ import {
   buildXDC,
   eruda,
   mockWebxdc,
-  //  legacy, // might cause problems in existing projects
 } from "@webxdc/vite-plugins";
 import { defineConfig } from "vite";
 

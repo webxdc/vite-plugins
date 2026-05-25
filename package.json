@@ -34,7 +34,6 @@
   },
   "dependencies": {
     "@vitejs/plugin-basic-ssl": "latest",
-    "@vitejs/plugin-legacy": "latest",
     "eruda": "latest",
     "vite-plugin-zip-pack": "^1.2.4"
   },
