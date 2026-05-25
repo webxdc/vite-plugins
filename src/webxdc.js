@@ -230,11 +230,14 @@ window.webxdc = (() => {
   });
 
   const params = new URLSearchParams(window.location.hash.substr(1));
+  const selfAddr = params.get("addr") || "device0@local.host";
   return {
     sendUpdateInterval: 1000,
     sendUpdateMaxSize: 999999,
-    selfAddr: params.get("addr") || "device0@local.host",
+    selfAddr,
     selfName: params.get("name") || "device0",
+    isAppSender: selfAddr === "device0@local.host",
+    isBroadcast: false,
     setUpdateListener: (cb, serial = 0) => {
       const updates = getUpdates();
       const maxSerial = updates.length;
